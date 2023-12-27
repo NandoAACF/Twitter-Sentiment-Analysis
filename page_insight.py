@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 
 def show_insight():
     st.title('Insight from Twitter Sentiment Analysis')
