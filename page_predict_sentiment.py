@@ -1,8 +1,11 @@
 import streamlit as st
 import pickle
 import re
+import nltk
 from nltk.stem import WordNetLemmatizer
 import joblib
+
+nltk.download('wordnet')
 
 def load_model():
     with open('sentiment_model.pickle', 'rb') as f:
