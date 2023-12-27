@@ -1,5 +1,5 @@
 # Twitter Sentiment Analysis
-**Web App:**
+**Web App: https://twitter-sentiment-prediction.streamlit.app/**
 
 **Goal:**
 - Predict sentiment of a tweet using NLP
