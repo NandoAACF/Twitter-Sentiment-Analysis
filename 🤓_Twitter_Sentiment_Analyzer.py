@@ -50,6 +50,7 @@ def cleanText(text):
     
     text = re.sub(multiSpace, ' ', text, flags=re.I)
     
+    nltk.download('wordnet')
     wordLemm = WordNetLemmatizer()
 
     words = ''
